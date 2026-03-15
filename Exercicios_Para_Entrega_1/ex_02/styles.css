@@ -20,3 +20,8 @@
     font-style: italic;
     max-width: 1200px;
 }
+
+body a {
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
