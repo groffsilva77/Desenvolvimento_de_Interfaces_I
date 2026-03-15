@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(176, 192, 209);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+}
+
+body a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1;
+    padding: 0;
+}
+
+.doc-final {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}

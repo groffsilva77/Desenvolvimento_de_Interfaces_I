@@ -1,0 +1,21 @@
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: center;
+    color: green;
+}
+
+.subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-align: left;
+    color: darkgreen;
+}
+
+.paragraph {
+    font-size: 12px;
+    text-align: justify;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
