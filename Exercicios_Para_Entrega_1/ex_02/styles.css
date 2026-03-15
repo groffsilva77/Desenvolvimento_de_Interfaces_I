@@ -7,15 +7,16 @@
 
 .subtitle {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
     color: darkgreen;
 }
 
 .paragraph {
-    font-size: 12px;
+    font-size: 14px;
     text-align: justify;
     color: blue;
     font-weight: bold;
     font-style: italic;
+    max-width: 1200px;
 }
