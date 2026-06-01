@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Central Proxy</title>
+</head>
+<body>
+    <header class="header">
+            <nav>                 
+                <a href="home.html">Home</a>
+                <a href="characters.html">Personagens</a>      
+                <a href="bangboos.html">Bangboos</a>
+                <a href="hollows.html">Hollows</a>
+                <a href="central.html" class="active">Central Proxy</a>             
+            </nav>
+        </header>
+        <main>
+            <section class="comission-container">
+                <h1 class="page-title">Solicitar Nova Comissão</h1>
+                <p class="subtitle-page">Insira os dados abaixo para enviar um sinal codificado aos Proxies Phaethon. A confidencialidade é garantida pela Interlaço</p>
+                <form action="#" method="POST" class="proxy-form">
+                    <div clas="form-group">
+                        <label for="client-name">Codinome do Cliente / Organização:</label>
+                        <input type="text" id="client-name" name="client-name" placeholder="Ex: Oficial da Federação, Cunning Hares..." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="danger-level">Nível de Perigo Estimado da Cavidade:</label>
+                        <select id="danger-level" name="danger-level" required>
+                            <option value="" disabled selected>Selecione o nível...</option>
+                            <option value="baixo">Nível Baixo (Exploração Segura)</option>
+                            <option value="medio">Nível Médio (Presença de Ethereals menores)</option>
+                            <option value="alto">Nível Alto (Risco Crítico de Mutação)</option>
+                            <option value="extremo">Nível Extremo (Presença de um Dreadnought)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group checkboxes">
+                        <label>Tipo de Suporte Necessário (Selecione todos que as aplicam):</label>
+
+                        <div class="checkbox-option">
+                            <input type="checkbox" id="support-combat" name="support-type" value="combate">
+                            <label for="support-combat">Combate e Eliminação de Monstros</label>
+                        </div>
+
+                        <div class="checkbox-option">
+                            <input type="checkbox" id="support-guide" name="support-type" value="guia">
+                            <label for="support-guide">Guia de Navegação (Rotas de Fuga)</label>
+                        </div>
+
+                        <div class="checkbox-option">
+                            <input type="checkbox" id="support-rescue" name="support-type" value="resgate">
+                            <label for="support-rescue">Resgate de Carga ou Pessoal Isolado</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mission-desc">Detalhes da Missão (Descreva o que aconteceu):</label>
+                        <textarea id="mission-desc" name="mission-desc" rows="5" placeholder="Forneça as coordenadas aproximadas ou o item perdido dentro da Cavidade..." required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn-submit">Transmitir Sinal para o HDD</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            Site com cards de Zenless Zone Zero
+        </footer>
+</body>
+</html>
